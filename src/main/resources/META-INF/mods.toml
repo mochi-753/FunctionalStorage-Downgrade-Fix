@@ -22,3 +22,10 @@ mandatory = true
 versionRange = "${minecraft_version_range}"
 ordering = "NONE"
 side = "BOTH"
+
+[[dependencies.${ mod_id }]]
+modId = "functionalstorage"
+mandatory = true
+versionRange = "${fs_version_range}"
+ordering = "NONE"
+side = "BOTH"
